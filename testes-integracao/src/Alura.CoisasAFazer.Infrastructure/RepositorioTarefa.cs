@@ -41,5 +41,10 @@ namespace Alura.CoisasAFazer.Infrastructure
         {
             return _ctx.Tarefas.Where(filtro);
         }
+
+        public object ObtemTarefas()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
